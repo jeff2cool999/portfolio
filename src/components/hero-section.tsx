@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <div className="mx-auto max-w-4xl flex justify-between items-center ">
       <div className="flex flex-col">
-        <h1 className=" text-yellow-400 ">Hello I'M</h1>
+        <h1 className=" text-yellow-400 ">Hello I&apos;M</h1>
 
         <div className="py-8 ">
           <h1 className=" text-5xl   text-white ">
@@ -14,7 +14,7 @@ export default function HeroSection() {
         </div>
 
         <p className=" text-white ">
-          I'm creative designer based in New York, and <br /> I'm very
+          I&apos;m creative designer based in New York, and <br /> I&apos;m very
           passionate and dedicated to my work
         </p>
 
