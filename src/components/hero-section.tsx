@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <div className="mx-auto max-w-4xl flex justify-between items-center ">
+    <div className="mx-auto max-w-4xl flex flex-col lg:flex-row justify-between items-center p-6 ">
       <div className="flex flex-col">
         <h1 className=" text-yellow-400 ">Hello I&apos;M</h1>
 
         <div className="py-8 ">
-          <h1 className=" text-5xl   text-white ">
+          <h1 className="text-lg lg:text-5xl text-white ">
             Jeff Ali <br />
             Frontend Developer
           </h1>

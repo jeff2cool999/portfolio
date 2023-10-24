@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="">
         <h1 className=" text-green-500 px-7"> A Few Of The Places I Work </h1>
       </div>
-      <div className="flex gap-4 p-6  items-center">
+      <div className="flex flex-col lg:flex-row gap-4 p-6  items-center">
         <div className="">
           <svg
             id="logo-27"
@@ -385,7 +385,7 @@ export default function Footer() {
           </svg>
         </div>
       </div>
-      <div className="flex justify-center gap-8  p-11">
+      <div className=" grid grid-cols-2 lg:flex justify-center gap-8  p-11">
         <div className="h-32  w-32 bg-gradient-to-b from-green-400 via-gray-950 to-gray-950 rounded-lg flex justify-center items-center">
           <div className="h-[124px] w-[124px] bg-gray-950 rounded-lg">
             <h1 className="text-green-400 flex-auto  p-8  ">

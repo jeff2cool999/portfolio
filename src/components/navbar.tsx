@@ -43,7 +43,7 @@ export default function Navbar() {
       </div>
 
       {/* Links */}
-      <div className="flex gap-3  ">
+      <div className=" gap-3 hidden lg:flex">
         <Link className="text-gray-500 hover:text-green-500" href="/">
           Home
         </Link>
@@ -66,12 +66,29 @@ export default function Navbar() {
       </div>
 
       {/* Action Button */}
-      <div className="flex gap-3">
+      <div className=" hidden lg:flex gap-3">
         <div className="flex gap-1">
           <button className=" bg-blue-500 px-2 py-2 rounded-lg  ">
             Downlond CV
           </button>
         </div>
+      </div>
+
+      <div className="text-white lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-6 h-6"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
       </div>
     </div>
   );
